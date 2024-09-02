@@ -1,0 +1,26 @@
+{
+  "name": "custom/newmodule",
+  "description": "Custom Module Extension.",
+  "type": "magento2-module",
+  "version": "1.1.2",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Cheska Aguiluz",
+      "email": "francheska3993@yahoo.com",
+      "homepage": "https://www.linkedin.com/in/cheskaaguiluz/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Custom\\NewModule\\": ""
+    }
+  }
+}
