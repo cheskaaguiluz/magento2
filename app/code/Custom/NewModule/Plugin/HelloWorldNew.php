@@ -26,7 +26,7 @@ class HelloWorldNew
     }
 
 	public function afterGetText(\CheskaAguiluz\HelloWorld\Block\Hello $subject, $result) {
-		$writer = new \Zend_Log_Writer_Stream(BP . '/var/log/janmonteros.log');
+		$writer = new \Zend_Log_Writer_Stream(BP . '/var/log/debugger.log');
 		$logger = new \Zend_Log();
 		$logger->addWriter($writer);
 		$logger->info('test');
